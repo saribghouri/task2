@@ -1,0 +1,33 @@
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+border: 5px solid black;
+padding: 15px;
+border-radius: 15px;
+}
+.container a{
+    flex-basis: 25%;
+    color: rgb(22, 22, 189);
+    text-decoration: none;
+    font-weight: 50px;
+
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+a{
+    font-weight: 50px; 
+}
+@media screen and (max-width: 668px) {
+    .container{
+flex-direction: column;
+width: 40%;
+justify-content: center;
+margin: auto;
+    }
+      }
